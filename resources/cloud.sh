@@ -37,8 +37,8 @@ if [ "$POCKETMINE_FILE" == "" ]; then
 	if [ -f src/pocketmine/PocketMine.php ]; then
 		POCKETMINE_FILE="src/pocketmine/PocketMine.php"
 	else
-		echo "PocketMine-MP.phar not found"
-		echo "Downloads can be found at https://github.com/pmmp/PocketMine-MP/releases"
+		echo "Die cloud wurde nicht gefunden"
+		echo "Du kannst die Cloud herunterladen auf https://github.com/BlckqPlugins/StimoCloud/"
 		exit 1
 	fi
 fi
