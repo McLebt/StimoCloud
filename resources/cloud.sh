@@ -28,7 +28,7 @@ if [ "$PHP_BINARY" == "" ]; then
 	elif [[ ! -z $(type php) ]]; then
 		PHP_BINARY=$(type -p php)
 	else
-		echo "Couldn't find a working PHP 7 binary, please use the installer."
+		echo "Die bin konnte nicht gefunden werden du kannst sie dir unter http://stimomc.com/cloud_bin.zip herunterladen"
 		exit 1
 	fi
 fi
@@ -37,8 +37,8 @@ if [ "$POCKETMINE_FILE" == "" ]; then
 	if [ -f src/pocketmine/PocketMine.php ]; then
 		POCKETMINE_FILE="src/pocketmine/PocketMine.php"
 	else
-		echo "PocketMine-MP.phar not found"
-		echo "Downloads can be found at https://github.com/pmmp/PocketMine-MP/releases"
+		echo "Die cloud wurde nicht gefunden"
+		echo "Du kannst die Cloud herunterladen auf https://github.com/BlckqPlugins/StimoCloud/"
 		exit 1
 	fi
 fi
