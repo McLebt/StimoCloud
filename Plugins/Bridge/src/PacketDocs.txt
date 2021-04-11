@@ -1,0 +1,12 @@
+.---------------------------------------------------------.
+|          Packet           |     ID    |   property/s    |
+|---------------------------|-----------|-----------------|
+| LoginPacket               |   0x000A  | uuid,password	  |
+| DisconnectPacket          |   0x000B  | reason		  |
+| AcceptConnectionPacket    |   0x000C  | string		  |
+| ConsoleTextPacket         |   0x000D  | sender,message  |
+| SendPlayersMessagePacket  |   0x000D0 | sender,message  |
+| StartPrivateServerPacket  |   0x000A0 | template,owner  |
+| StartServerPacket         |   0x0000E | template,count  |
+| ...		                |   ...     | 				  |
+'---------------------------------------------------------'

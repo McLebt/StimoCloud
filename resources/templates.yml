@@ -1,0 +1,14 @@
+---
+lobby:
+  enabled: true
+  startPort: 44955
+  minServiceCount: 1
+  maxPlayersPercent: 69
+  minPlayersPercent: 20
+QSG:
+  enabled: true
+  startPort: 44956
+  minServiceCount: 4
+  maxPlayersPercent: 69
+  minPlayersPercent: 20  
+...

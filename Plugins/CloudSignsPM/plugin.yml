@@ -1,0 +1,10 @@
+name: CloudSystem
+version: 1.0
+api: 3.0.0
+main: CloudSystem\CloudSystem
+description: An MC:BE CloudSystem
+commands:
+  regsign:
+    description: Register a cloudsign
+  reggroupsign:
+    description: Register a cloudsign

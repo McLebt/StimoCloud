@@ -1,0 +1,5 @@
+name: Sync
+version: 0.1
+api: 3.0.0
+main: Sync\Sync
+description: Sync for the CloudSystem

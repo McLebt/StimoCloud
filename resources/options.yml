@@ -1,0 +1,5 @@
+---
+listener-ip: 0.0.0.0
+listener-port: 13337
+password: DeinPasswortHier
+...
