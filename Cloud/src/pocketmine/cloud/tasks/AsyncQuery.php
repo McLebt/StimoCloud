@@ -64,7 +64,6 @@ class AsyncQuery extends AsyncTask{
 					$serv->stopServer();
 				}
 			}
-			var_dump("Executed");
 		}
 
 		//PrivateServer
